@@ -1,1 +1,7 @@
-# acquaintancesProject
+# Проект "Знакоства"
+
+В проекте использовались:
+- Java
+- JDBC
+- NEO4J
+- JavaFX
