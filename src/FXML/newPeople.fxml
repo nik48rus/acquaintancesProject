@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="535.0" prefWidth="415.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.NewPeopleController">
+   <children>
+      <Button fx:id="saveButton" layoutX="288.0" layoutY="490.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="109.0" text="Добавить" />
+      <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="14.0" text="Добавление аккаунта">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+
+       <Label alignment="TOP_LEFT" layoutX="18.0" layoutY="156.0" prefHeight="21.0" prefWidth="48.0" text="Имя" />
+       <Label alignment="TOP_LEFT" layoutX="18.0" layoutY="196.0" prefHeight="21.0" prefWidth="78.0" text="Фамилия" />
+       <Label alignment="TOP_LEFT" layoutX="18.0" layoutY="235.0" prefHeight="21.0" prefWidth="115.0" text="Дата рождения" />
+       <Label alignment="TOP_LEFT" layoutX="18.0" layoutY="273.0" prefHeight="21.0" prefWidth="115.0" text="Пол" />
+       <Label alignment="TOP_LEFT" layoutX="18.0" layoutY="315.0" prefHeight="21.0" prefWidth="115.0" text="VK" />
+       <Label alignment="TOP_LEFT" layoutX="18.0" layoutY="358.0" prefHeight="21.0" prefWidth="115.0" text="FB" />
+       <Label alignment="TOP_LEFT" layoutX="18.0" layoutY="400.0" prefHeight="21.0" prefWidth="115.0" text="Для отношений" />
+       <Label alignment="TOP_LEFT" layoutX="18.0" layoutY="441.0" prefHeight="21.0" prefWidth="115.0" text="Хобби" />
+       <TextField fx:id="nameText" layoutX="153.0" layoutY="151.0" prefHeight="31.0" prefWidth="244.0" />
+       <TextField fx:id="surnameText" layoutX="153.0" layoutY="191.0" prefHeight="31.0" prefWidth="244.0" />
+       <TextField fx:id="vkText" layoutX="153.0" layoutY="310.0" prefHeight="31.0" prefWidth="244.0" />
+       <TextField fx:id="fbText" layoutX="153.0" layoutY="353.0" prefHeight="31.0" prefWidth="244.0" />
+       <TextField fx:id="hobbyText" layoutX="153.0" layoutY="436.0" prefHeight="31.0" prefWidth="244.0" />
+       <DatePicker fx:id="birthPick" layoutX="153.0" layoutY="230.0" prefHeight="31.0" prefWidth="244.0" />
+       <ChoiceBox fx:id="genderText" layoutX="153.0" layoutY="268.0" prefHeight="31.0" prefWidth="244.0" />
+       <ChoiceBox fx:id="formarrigeText" layoutX="153.0" layoutY="395.0" prefHeight="31.0" prefWidth="244.0" />
+      <Label alignment="TOP_LEFT" layoutX="18.0" layoutY="74.0" prefHeight="21.0" prefWidth="48.0" text="Логин" />
+      <TextField fx:id="loginText" layoutX="153.0" layoutY="69.0" prefHeight="31.0" prefWidth="244.0" />
+      <TextField fx:id="passwordText" layoutX="153.0" layoutY="110.0" prefHeight="31.0" prefWidth="244.0" />
+      <Label alignment="TOP_LEFT" layoutX="18.0" layoutY="115.0" prefHeight="21.0" prefWidth="78.0" text="Пароль" />
+      <Button fx:id="randomDataButton" defaultButton="true" layoutX="14.0" layoutY="490.0" mnemonicParsing="false" text="Случайные данные" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="370.0" prefWidth="895.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AuthController">
+   <children>
+      <Button fx:id="authButton" layoutX="210.0" layoutY="324.0" mnemonicParsing="false" text="Войти" />
+      <TextField fx:id="loginText" layoutX="84.0" layoutY="150.0" />
+      <Label layoutX="33.0" layoutY="155.0" text="Логин" />
+      <Label layoutX="23.0" layoutY="196.0" text="Пароль" />
+      <PasswordField fx:id="passwordText" layoutX="84.0" layoutY="191.0" />
+      <Label alignment="CENTER" layoutX="21.0" layoutY="40.0" prefHeight="48.0" prefWidth="251.0" text="Авторизация">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="bgImage" fitHeight="371.0" fitWidth="624.0" layoutX="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/15636391460672.png" />
+         </image></ImageView>
+      <Label layoutX="25.0" layoutY="329.0" opacity="0.3" text="by Nikita Kudinov" />
+   </children>
+</AnchorPane>
